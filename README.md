@@ -1,21 +1,26 @@
 # period5
 
 **Name attributes of HTTP protocol makes it difficult to use for real time systems.**
+
 Because the HTTP protocol is only half duplex the server and the user can't communicate simultaneously, so the data can be inacurate, when using the HTTP protocol there's a big overhead opening and closing certain objects like cookies and headers.
 
 **Explain polling and long-polling strategies, their pros and cons.**
+
 Polling sends a request and gets an answer back right after even tho the answer is empty, where as the long polling waits till there's and answer to be sent back.
 
 **What is HTTP streaming, SSE (Server sent events)?**
+
 Makes the server able to send data to the client without a request, which makes it possible to recieve updates as they happen.
 but is only from server to client.
 
 **What is WebSocket protocol, how is it different from HTTP communication, what advantages it has over
 HTTP?**
+
 Instead of a half duplex communication it's full duplex, so it can both request and recieve data simultainously
  
 
 **Explain what the WebSocket Protocol brings to the Web-world.**
+
 It makes the data recieved more acurate
 
 **Explain and demonstrate the process of WebSocket communication - From connecting client to server,
